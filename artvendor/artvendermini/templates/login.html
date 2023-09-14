@@ -40,7 +40,7 @@
                     {% if messages %}
                         <div class="messages" id="report_login">
                             {% for message in messages %}
-                                <p{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</p>
+                                <p {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</p>
                             {% endfor %}
                         </div>
                     {% endif %}
